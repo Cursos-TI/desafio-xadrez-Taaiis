@@ -8,12 +8,25 @@ int main() {
 
     printf("====== Desafio xadrez! ====== \n");
 
-    
+    printf ("Casas que a torre irá percorrer... \n\n");
+
     for (int i = 0; i < casas_torre; i++)    //Estrutura de repetição
     {
-        printf("Direita\n"); //Resultado a ser imprimido
+        printf("Direita\n"); //Resultado a ser impreso
+        
+    }printf("\n");
+    
+        printf ("Casas que o bispo irá percorrer... \n\n");
+    int i = 0;
+
+    while (i < casas_bispo) {
+        printf("Cima, Direita\n");//Resultado a ser impreso
+
+        i++; //incremento do contador para que não ocorra um loop infinito
 
     }
+    printf("\n");
+
 
 
 
